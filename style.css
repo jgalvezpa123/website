@@ -1,0 +1,54 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: hsl(192, 100%, 9%);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+header img{
+    width: 100px;
+}
+header button{
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 50px;
+    background: #fff;
+    font-weight: 700;
+    font-family: inherit;
+
+}
+
+.container{
+    width: 90%;
+    
+    max-width: 1500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3em 0 2em;
+
+}
+header,.container{
+    
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(img/bg-hero-mobile.svg);
+    background-size: cover;
+    
+}
+
+
+.container .part1 h1{
+    font-size: 30px;
+    
+}
+
