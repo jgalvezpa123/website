@@ -16,6 +16,9 @@ header{
     align-items: center;
     padding: 25px;
 }
+img{
+    width: 100%;
+}
 header img{
     width: 100px;
 }
@@ -29,26 +32,61 @@ header button{
 
 }
 
-.container{
-    width: 90%;
-    
-    max-width: 1500px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 3em 0 2em;
 
-}
-header,.container{
+
+header,.card1{
     
     background-color: hsl(193, 100%, 96%);
     background-image: url(img/bg-hero-mobile.svg);
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
 
-.container .part1 h1{
+.cards-containers .part1 h1{
     font-size: 30px;
+    
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3em 0 2em;
+    
+   
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cards-containers{
+    margin-top: 1.5em;
+    padding: 1em;
+    border: 2px solid white;
+    box-shadow: 1px 1px 5px #ddd;
+    border-radius: 10px;
+
+}
+.cardimagen{
+    width: 250px;
+    order: 2;
+    margin: 2em 0;
+    
+
+}
+.cardfinal{
+    padding: 1em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    background-color: white;
+    position: relative;
+    top: 100px;
+}
+.buttonfinal{
+
     
 }
 
