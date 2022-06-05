@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 1em;
 }
 img{
     width: 100%;
@@ -29,12 +29,12 @@ header button{
     background: #fff;
     font-weight: 700;
     font-family: inherit;
+    border: none;
+    outline: none;
 
 }
 
-
-
-header,.card1{
+header,.wrapper{
     
     background-color: hsl(193, 100%, 96%);
     background-image: url(img/bg-hero-mobile.svg);
@@ -55,11 +55,18 @@ header,.card1{
     
    
 }
+.flex1{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 .cards-containers{
@@ -144,6 +151,86 @@ header,.card1{
     align-items: center;
     font-size: 12px;
 }
+
+@media screen and (min-width: 1020px) and (max-width: 1500px) {
+
+    header {
+        padding: 2em;
+    }
+
+    header,
+    .hero {
+        background-color: hsl(193, 100%, 96%);
+        background-image: url("img/bg-hero-mobile.svg");
+        background-size: cover;
+    }
+
+    .container {
+        text-align: left;
+    }
+
+    .container-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-text,
+    .hero-img {
+        width: 50%;
+    }
+
+    .hero-text {
+        padding: 1.3em;
+    }
+
+    .break-word {
+        display: block;
+    }
+
+    .card-text {
+        width: 50%;
+    }
+
+    .card-text {
+        order: -2;
+        padding: 1.5em;
+    }
+
+    .order-reversed {
+        order: 2;
+    }
+
+    .card-cta {
+        width: 400px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5em; 
+    }
+
+    .footer-list,
+    .socials-and-copyright {
+        margin-top: 0;
+    }
+
+    .footer-innerdiv  {
+        max-width: 400px;
+    }
+
+    .socials-and-copyright {
+        justify-content: space-between;
+    }
+
+}
+
+
+
 
 
 
