@@ -98,6 +98,59 @@ header,.card1{
     color: #fff;
     
 }
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color: hsla(193, 100%, 96%, 0.75);
+    margin-bottom: 1.5em;
+
+}
+.footer-div {
+    margin-bottom: 3em;
+}
+
+
+
+.logo-footer {
+
+    width: 140px;
+    margin: 4em 0 1em;
+}
+.footer-innerdiv {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1em;
+}
+
+.footer-icons {
+    width: 15px;
+    margin-right: 1em;
+}
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+}
+.footer-list-items {
+    margin-bottom: 1em;
+}
+.socials {
+    margin-bottom: 1.5em;
+}
+.socials-and-copyright {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+
+    
+
+
 
 
 
