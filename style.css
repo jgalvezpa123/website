@@ -200,7 +200,7 @@ header,.wrapper{
         padding: 21px;
     }
 
-    .break-word {
+    .dividir {
         display: block;
     }
 
@@ -230,8 +230,8 @@ header,.wrapper{
         margin-top: 24px; 
     }
 
-    .footer-list,
-    .socials-and-copyright {
+    .footer-list{
+    
         margin-top: 0;
     }
 
@@ -239,11 +239,7 @@ header,.wrapper{
         max-width: 400px;
     }
 
-    .socials-and-copyright {
-        justify-content: space-between;
-    }
 
-}
 
 
 
