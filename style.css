@@ -8,7 +8,6 @@ body{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: hsl(192, 100%, 9%);
-
 }
 header{
     display: flex;
@@ -31,29 +30,22 @@ header button{
     font-family: inherit;
     border: none;
     outline: none;
-
 }
-
 header,.wrapper{
-    
     background-color: hsl(193, 100%, 96%);
     background-image: url(img/bg-hero-mobile.svg);
     background-size: cover;   
 }
 
-
 .cards-containers .part1 h1{
-    font-size: 30px;
-    
+    font-size: 30px;   
 }
 .container{
     width: 90%;
     max-width: 1000px;
     text-align: center;
     margin: 0 auto;
-    padding: 48px 0 32px;
-    
-   
+    padding: 48px 0 32px;  
 }
 .flex1{
     display: flex;
@@ -66,8 +58,6 @@ header,.wrapper{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 .cards-containers{
     margin-top: 24px;
@@ -75,14 +65,11 @@ header,.wrapper{
     border: 2px solid white;
     box-shadow: 1px 1px 5px #ddd;
     border-radius: 10px;
-
 }
 .cardimagen{
     width: 250px;
     order: 2;
     margin: 32px 0;
-    
-
 }
 .cardfinal{
     padding: 16px;
@@ -102,8 +89,7 @@ header,.wrapper{
     font-weight: 700;
     font-family: inherit;
     background: hsl(322, 100%, 66%);
-    color: #fff;
-    
+    color: #fff; 
 }
 .button2{
     padding: 5px 25px;
@@ -117,33 +103,24 @@ header,.wrapper{
     padding: 10px 60px;
     margin: 64px 0;
     color: #fff
-    
-
-
 }
 .footer{
     background-color: hsl(192, 100%, 9%);
     color: hsla(193, 100%, 96%, 0.75);
     margin-bottom: 1.5em;
-
 }
 .footer-div {
     margin-bottom: 48px;
 }
-
-
-
 .logo-footer {
-
-    width: 140px;
-    margin: 64px 0 16px;
+ width: 140px;
+ margin: 64px 0 16px;
 }
 .footer-innerdiv {
     display: flex;
     align-items: center; 
     margin-bottom: 16px;
 }
-
 .footer-icons {
     width: 15px;
     margin-right: 16px;
@@ -238,6 +215,7 @@ header,.wrapper{
     .footer-innerdiv  {
         max-width: 400px;
     }
+}
 
 
 
