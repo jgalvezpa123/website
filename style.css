@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 16px;
 }
 img{
     width: 100%;
@@ -51,7 +51,7 @@ header,.wrapper{
     max-width: 1000px;
     text-align: center;
     margin: 0 auto;
-    padding: 3em 0 2em;
+    padding: 48px 0 32px;
     
    
 }
@@ -70,8 +70,8 @@ header,.wrapper{
 
 }
 .cards-containers{
-    margin-top: 1.5em;
-    padding: 1em;
+    margin-top: 24px;
+    padding: 16px;
     border: 2px solid white;
     box-shadow: 1px 1px 5px #ddd;
     border-radius: 10px;
@@ -80,14 +80,14 @@ header,.wrapper{
 .cardimagen{
     width: 250px;
     order: 2;
-    margin: 2em 0;
+    margin: 32px 0;
     
 
 }
 .cardfinal{
-    padding: 1em;
-    margin-top: 4em;
-    margin-bottom: 1em;
+    padding: 16px;
+    margin-top: 64px;
+    margin-bottom: 16px;
     background-color: white;
     position: relative;
     top: 100px;
@@ -115,7 +115,7 @@ header,.wrapper{
     font-family: inherit;
     background: hsl(322, 100%, 66%);
     padding: 10px 60px;
-    margin: 4em 0;
+    margin: 64px 0;
     color: #fff
     
 
@@ -128,7 +128,7 @@ header,.wrapper{
 
 }
 .footer-div {
-    margin-bottom: 3em;
+    margin-bottom: 48px;
 }
 
 
@@ -136,33 +136,33 @@ header,.wrapper{
 .logo-footer {
 
     width: 140px;
-    margin: 4em 0 1em;
+    margin: 64px 0 16px;
 }
 .footer-innerdiv {
     display: flex;
     align-items: center; 
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .footer-icons {
     width: 15px;
-    margin-right: 1em;
+    margin-right: 16px;
 }
 .footer-list {
     list-style: none;
     padding: 0;
-    margin-top: 1em;
+    margin-top: 16px;
 }
 .footer-list-items {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 .socials {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
 }
 .socials-and-copyright {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 24px;
     
     align-items: center;
     font-size: 12px;
@@ -171,7 +171,7 @@ header,.wrapper{
 @media screen and (min-width: 1020px) and (max-width: 1500px) {
 
     header {
-        padding: 2em;
+        padding: 24px;
     }
 
     header,
@@ -197,7 +197,7 @@ header,.wrapper{
     }
 
     .part1 {
-        padding: 1.3em;
+        padding: 21px;
     }
 
     .break-word {
@@ -210,7 +210,7 @@ header,.wrapper{
 
     .cardtexto {
         order: -2;
-        padding: 1.5em;
+        padding: 24px;
     }
 
     .order-reversed {
@@ -227,7 +227,7 @@ header,.wrapper{
     .footer-flex {
         display: flex;
         justify-content: space-between;
-        margin-top: 1.5em; 
+        margin-top: 24px; 
     }
 
     .footer-list,
