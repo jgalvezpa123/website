@@ -5,34 +5,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/7f63372f42.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Website</title>
+  
+  
 </head>
-
 <body>
-
   <!-- Comienzo del Header  -->
   <header>
-    <img src="img/logo.svg" alt="logo">
+    <img src="img/logo.svg" alt="logo" id="logo" >
     <button class="button"> Try it Free</button>
   </header>
   <!-- Fin del Header -->
 
-
-  <!-- Comienzo del container -->
-
   <!-- Primer container -->
   <section>
     <div class="wrapper">
-      <div class=" container flex1">
+      <div class="container flex1">
         <div class="part1">
-          <h1> Build The Community <span class="dividir"></span> Your Fans Will Love</h1>
+          <h1 id="titulo1"> Build The Community <span class="dividir"></span> Your Fans Will Love</h1>
           <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
             Create connections with your users as you engage in genuine discussion.</p>
           <button class="button2">Get Started For Free</button>
         </div>
         <div class="part2">
-          <img src="img/illustration-mockups.svg" alt="imagen">
+          <img src="img/illustration-mockups.svg" alt="ImagenMockups">
         </div>
       </div>
     </div>
@@ -49,20 +50,20 @@
         </div>
 
         <div class="cardimagen">
-          <img src="img/illustration-grow-together.svg" alt="">
+          <img src="img/illustration-grow-together.svg" alt="ImagenGrowTogether">
         </div>
       </div>
       <!-- Fin del segundo container -->
 
       <!-- Comienzo del tercer container -->
-      <div class="flex cards-containers">
-        <div class="cardtexto">
+      <div class="flex cards-containers flexreverse">
+        <div class="cardtexto order-reversed">
           <h2>Flowing Conversations</h2>
           <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time
             loading for a more natural flow.</p>
         </div>
         <div class="cardimagen">
-          <img src="img/illustration-flowing-conversation.svg" alt="">
+          <img src="img/illustration-flowing-conversation.svg" alt="ImagenFlowingConversation">
         </div>
       </div>
       <!-- Fin del tercer container -->
@@ -75,73 +76,69 @@
             signed in to your app, your users can start chatting immediately.</p>
         </div>
         <div class="cardimagen">
-          <img src="img/illustration-your-users.svg" alt="">
+          <img src="img/illustration-your-users.svg" alt="ImagenYourUsers">
         </div>
       </div>
       <!-- Fin del cuarto container -->
-
-
-      <div class="cards-containers cardfinal">
+      <div class="cards-containers cardfinal cardfinal2">
         <h3>Ready To Build Your Community?</h3>
         <button class="buttonfinal"> Get Started For Free </button>
       </div>
     </div>
-
   </section>
   <!-- Fin de los containers -->
 
-          <!-- Inicio Footer -->
+  <!-- Inicio Footer -->
   <footer class="footer">
     <div class="container">
       <img src="img/logo.svg" alt="Logo" class="logo-footer">
       <div class="footer-contact-info footer-flex">
         <div class="footer-div">
           <div class="footer-innerdiv">
-            <img src="img/icon-location.svg" alt="" class="footer-icons">
+            <img src="img/icon-location.svg" alt="location" class="footer-icons">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua</p>
           </div>
 
           <div class="footer-innerdiv">
-            <img src="img/icon-phone.svg" alt="" class="footer-icons">
-            <p>+1-543-123-4567</p>
+            <img src="img/icon-phone.svg" alt="phone" class="footer-icons">
+            <a href="tel:+15431234567">+1-543-123-4567</a>
           </div>
 
           <div class="footer-innerdiv">
-            <img src="img/icon-email.svg" alt="" class="footer-icons">
-            <p>example@huddle.com</p>
+            <img src="img/icon-email.svg" alt="email" class="footer-icons">
+           <a href="mailto:"> example@huddle.com</a> 
           </div>
         </div>
 
         <div>
           <ul class="footer-list">
-            <li class="footer-list-items">About Us</li>
-            <li class="footer-list-items">What We Do</li>
-            <li class="footer-list-items">FAQ</li>
+            <li class="footer-list-items"> <a href="#">About Us</a></li>
+            <li class="footer-list-items"><a href="#">What We Do</a></li>
+            <li class="footer-list-items"><a href="#">FAQ</a></li>
           </ul>
         </div>
 
         <div>
           <ul class="footer-list">
-            <li class="footer-list-items">Career</li>
-            <li class="footer-list-items">Blog</li>
-            <li class="footer-list-items">Contact Us</li>
+            <li class="footer-list-items"> <a href="#">Career</a></li>
+            <li class="footer-list-items"><a href="#">Blog </a></li>
+            <li class="footer-list-items"><a href="#">Contact Us</a></li>
           </ul>
         </div>
+
+        <div class="socials-and-copyright">
+          <div class="socials">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
 
         <span class="span"> Copyright Huddle 2018. All rights reserved.</span>
       </div>
     </div>
-    </div>
-
-
-    <div>
+    </div>  
   </footer>
   <!-- Final Footer -->
-
-
-
-
 </body>
-
 </html>
