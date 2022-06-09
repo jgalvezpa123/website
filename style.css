@@ -127,9 +127,9 @@ header, .wrapper {
     font-family: inherit;
     background: hsl(322, 100%, 66%);
     color: #fff; 
-    cursor: pointer;
-      
+    cursor: pointer;     
 }
+
 .buttonfinal:hover {
     background: hsl(322, 92%, 75%);
 }
@@ -192,8 +192,7 @@ filter:  brightness(0) invert(1);
 }
 
 .socials {
-    margin-bottom: 60px;
-    
+    margin-bottom: 60px;  
 }
 
 .fa-brands{
